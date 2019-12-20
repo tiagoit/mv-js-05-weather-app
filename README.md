@@ -4,7 +4,7 @@
 Use Webpack, JS modules, OOP, asyc promises, Weather.com and Giphy APIto build an Weather App.
 
 ### Technology
-HTML, SASS, Bootstrap, ES6, ESlint, Prettier, Stickler-ci, Async Promises, HTML5 Fetch.
+HTML, SASS, ES6, ESlint, Prettier, Stickler-ci, Async Promises, HTML5 Fetch.
 
 ### Authors
 - **Tiago Ferreira** - [@ferreirati](https://github.com/ferreirati)
