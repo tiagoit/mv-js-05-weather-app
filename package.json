@@ -20,10 +20,7 @@
   },
   "homepage": "https://github.com/ferreirati/mv-js-05-weather-app#readme",
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
     "autoprefixer": "^9.7.3",
-    "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.3.2",
     "eslint": "^6.7.2",
