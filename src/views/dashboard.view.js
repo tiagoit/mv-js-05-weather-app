@@ -1,11 +1,9 @@
 class DashboardView {
-  static render() {
-    const html = `
-      <div class="container">
-        <h1>App works?</h1>
-      </div>`;
-
-    document.getElementsByTagName('router-outlet')[0].innerHTML = html;
+  static html() {
+    return `
+      <app-weather></app-weather>
+      <div id="message"></div>
+      <div class="lds-ring hidden"><div></div><div></div><div></div>`;
   }
 }
 

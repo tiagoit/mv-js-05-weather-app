@@ -1,0 +1,33 @@
+@import './loading.scss';
+
+.hidden { display: none; }
+
+.unit-selector {
+  position: absolute;
+  right: 8px;
+  top: 16px;
+
+  span {
+    padding: 8px;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+
+    &.active {
+      background-color: rgba(0,0,0,0.2);
+      color: #fff;
+    }
+
+    &:hover {
+      background-color: rgba(0,0,0,0.5);
+      color: #fff;
+    }
+  }
+}
+
+.city-weather {
+  h3 > img {
+    vertical-align: middle;
+  }
+}
+
