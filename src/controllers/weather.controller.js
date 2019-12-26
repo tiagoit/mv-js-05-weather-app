@@ -13,6 +13,9 @@ class WeatherController {
 
   async fetchWeather(city) {
     AppService.loading(true);
+    this.weather = null;
+    this.render();
+    AppService.message('');
     const cityWeatherEl = document.querySelector('.city-weather');
     cityWeatherEl && cityWeatherEl.classList.add('hidden');
 
