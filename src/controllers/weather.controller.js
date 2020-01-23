@@ -3,9 +3,9 @@ import WeatherModel from '../models/weather.model';
 import AppService from '../app.service';
 
 class WeatherController {
-  constructor() {
-    this.API_KEY = '78a2bba3424e1a63346ff93574588b4e';
-    this.GIPHY_API_KEY = 'nDWEJSpM5qhqmP3iAWfnRC16h4EqhMs6';
+  constructor() {document
+    this.API_KEY = '';
+    this.GIPHY_API_KEY = '';
     this.unit = 'imperial';
     this.tag = 'app-weather';
     this.render();
